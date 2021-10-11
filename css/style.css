@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-dog:hover {
+    color:peru;
+}
+
+.section-like {
+    height: 90vh !important;
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+}
+
+.section-dogs {
+    background-color: #7f5539;
+}
+
+.lorem-p h2{
+    color: burlywood;
+}
+
+.section-enquiry {
+    background-color: #9c6644;
+}
+
+.section-ipsum{
+    background-color: #ddb892;
+}
+
+.div-img {
+    box-shadow: 4px 5px 3px gray;
+}
+
+.div-gallery {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .goro img {
+        padding-top: 5rem !important;
+    }
+
+    .gunner img {
+        padding-top: 3rem !important;
+    }
+    .wool h2 {
+        font-size: 1.9rem !important;
+    }
+    .div-imgg img {
+        padding-top: 2rem !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .section-like {
+        height: 300px !important;
+    }
+
+    .boho h2 {
+       padding-top: 1rem !important;
+        padding-left: 0 !important;
+    }
+    .boho h4 {
+         padding-left: 0 !important;
+     }
+
+    .div-about {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .goro img {
+        padding-top: 1rem !important;
+    }
+    .div-dolor {
+        width: 100%;
+        text-align: center;
+    }
+
+    .zoro {
+        flex-direction: column !important;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .older {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .bolo {
+        flex-direction: column;
+    }
+
+    .oloro {
+        width: 100% !important;
+        padding: 3rem !important;
+        text-align: center;
+    }
+
+    .div-enquiry {
+        flex-direction: column;
+    }
+
+    .gunnerr {
+        text-align: center;
+        width: 100% !important;
+        padding: 3rem !important;
+    }
+    .div-ceo {
+        flex-direction: column !important;
+    }
+    .upcomer {
+        width: 100% !important;
+        text-align: center;
+    }
+    .upcomer p {
+        padding: 0 3rem 0 !important;
+    }
+    .div-imgg img {
+        height: 350px;
+    }
+    .div-img {
+        width: 100% !important;
+        margin: 1rem 0 0 !important;
+        height: 450px;
+    }
+    .div-img img {
+        height: 340px;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .wool h2 {
+        font-size: 1.5rem !important;
+    }
+    .div-imgg img {
+        height: 300px;
+    }
+
+@media (max-width: 320px) {
+    .wool h2 {
+        font-size: 1rem !important;
+    }
+    .div-img img {
+        height: 240px;
+        width: 100%;
+    }
+    .div-img {
+        
+        height: 350px;
+    }
+
+}
