@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
 .nav-dog:hover {
     color:peru;
 }
@@ -142,6 +145,7 @@
     .div-imgg img {
         height: 300px;
     }
+}
 
 @media (max-width: 320px) {
     .wool h2 {
